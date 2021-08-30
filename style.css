@@ -1,0 +1,187 @@
+@import url("https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bungee&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  text-transform: capitalize;
+}
+
+/* .banner {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(https://www.cbn.co.za/wp-content/uploads/2020/08/5g-network-body-image.jpg);
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+} */
+h6 {
+  color: white;
+  background-color: rgb(5, 5, 58);
+  padding: 10px 0;
+  display: block;
+  text-align: center;
+  border: 5px red;
+}
+hr {
+  width: 110px;
+  background-color: skyblue;
+}
+
+/* assurance */
+.assurance .one {
+  color: rgb(7, 7, 63);
+}
+.assurance h4 {
+  font-size: 4em;
+  font-family: "Bungee", cursive;
+  word-spacing: 20px;
+}
+@media (max-width: 600px) {
+  .assurance img {
+    width: 200px;
+  }
+  .assurance h4 {
+    width: 1em;
+  }
+  html {
+    width: 100%;
+    margin: 0em;
+  }
+  iframe {
+    width: 370px;
+  }
+  .assurance h4 {
+    font-size: 3em;
+  }
+  .second {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+.assurance img {
+  width: 450px;
+}
+/* second nav */
+.second {
+  background-color: rgb(8, 8, 66);
+}
+p {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.photo-part img {
+  width: 500px;
+}
+h4 {
+  font-size: 2.5em;
+}
+/* innovation */
+.innovatin p {
+  color: black;
+}
+.innovatin h1 {
+  font-size: 3em;
+  font-family: "Fredoka One", cursive;
+}
+.innovatin h5 {
+  color: rgb(22, 25, 26);
+  font-size: 1.5em;
+  font-family: "Fredoka One", cursive;
+}
+/* bigconntainer */
+.four img {
+  width: 600px;
+  height: 350px;
+  border-radius: 70px;
+}
+.four img:hover {
+  box-shadow: 5px 10px 15px rgb(88, 70, 70);
+}
+
+/* media query */
+@media (max-width: 400px) {
+  .video-part video {
+    padding: 0px;
+    width: 200px;
+  }
+  .photo-part {
+    padding: 0px;
+  }
+  .photo-part img {
+    width: 300px;
+  }
+  .row {
+    padding: 0;
+  }
+  .innovation {
+    padding: 0;
+  }
+  .innoavtion h1 {
+    font-size: 0em;
+  }
+  .four img {
+    width: 330px;
+  }
+  .container {
+    margin-top: 0px;
+  }
+}
+/* card */
+.card {
+  background-color: rgb(25, 20, 102);
+  color: rgb(211, 208, 208);
+  padding: 1em;
+  width: 350px;
+  height: 230px;
+  text-align: center;
+  display: inline-block;
+  border-radius: 10px;
+  box-sizing: border-box;
+  cursor: pointer;
+  margin: 10px 15px;
+  transition: transform 0.6s;
+}
+.card h2 {
+  font-family: "Fredoka One", cursive;
+}
+.second {
+  text-align: center;
+  justify-content: center;
+  background-color: white;
+  display: flex;
+}
+.card:hover {
+  transform: translateY(-10px);
+}
+/* button */
+button {
+  width: 11em;
+  height: 3em;
+  border-radius: 4em;
+  outline-color: white;
+}
+button:hover {
+  background-color: black;
+  color: white;
+}
+/* footer */
+.footer {
+  background-color: rgb(9, 9, 114);
+  color: white;
+  border-radius: 60px;
+}
+.footer h1 {
+  font-family: "Fredoka One", cursive;
+}
+/* last */
+.last {
+  width: 80px;
+  height: 8px;
+  border-radius: 30px;
+  background-color: aquamarine;
+}
